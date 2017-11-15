@@ -3,3 +3,13 @@
 ################################################################################
 
 *.lock
+/FarmMarket/.vs
+/FarmMarket/ILanni.Common.User.DbModel/obj
+/FarmMarket/ILanni.Common.User.DbModel/bin/Debug/netcoreapp2.0
+/FarmMarket/ILanni.Common.User.Repository/bin/Debug/netcoreapp2.0
+/FarmMarket/ILanni.Common.User.Repository/obj
+/FarmMarket/ILanni.Common.User.Web/bin/Debug/netcoreapp2.0
+/FarmMarket/ILanni.Common.User.Web/obj
+/FarmMarket/ILanni.Common.User.Web/ILanni.Common.User.Web.csproj.user
+/FarmMarket/ILanni.FarmMarket.Web/bin/Debug/netcoreapp2.0
+/FarmMarket/ILanni.FarmMarket.Web/obj
