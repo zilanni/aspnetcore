@@ -20,14 +20,14 @@ namespace ILanni.Common.User.Web.Controllers
     [Route("[controller]/[action]")]
     public class AccountController : Controller
     {
-        private readonly UserManager<ILanni.Common.User.DbModel.User> _userManager;
-        private readonly SignInManager<ILanni.Common.User.DbModel.User> _signInManager;
+        private readonly UserManager<ILanni.Common.Identity.User> _userManager;
+        private readonly SignInManager<ILanni.Common.Identity.User> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
 
         public AccountController(
-            UserManager<ILanni.Common.User.DbModel.User> userManager,
-            SignInManager<ILanni.Common.User.DbModel.User> signInManager,
+            UserManager<ILanni.Common.Identity.User> userManager,
+            SignInManager<ILanni.Common.Identity.User> signInManager,
             IEmailSender emailSender,
             ILogger<AccountController> logger)
         {
@@ -220,7 +220,7 @@ namespace ILanni.Common.User.Web.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             if (ModelState.IsValid)
             {
-                var user = new ILanni.Common.User.DbModel.User { UserName = model.Email, Email = model.Email };
+                var user = new ILanni.Common.Identity.User { UserName = model.Email, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

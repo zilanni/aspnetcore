@@ -1,0 +1,13 @@
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\ILanni.Common.Identity.deps.json
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\ILanni.Common.Identity.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\ILanni.Common.Identity.csprojResolveAssemblyReference.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\ILanni.Common.Identity.csproj.CoreCompileInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\ILanni.Common.Identity.AssemblyInfoInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\ILanni.Common.Identity.AssemblyInfo.cs
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\ILanni.Common.Identity.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\ILanni.Common.User.DbModel.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\ILanni.Common.User.Repository.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\ILanni.Common.User.DbModel.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\ILanni.Common.User.Repository.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\ILanni.Common.Identity.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\ILanni.Common.Identity.pdb

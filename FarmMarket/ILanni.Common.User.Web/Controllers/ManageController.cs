@@ -13,7 +13,6 @@ using Microsoft.Extensions.Options;
 using ILanni.Common.User.Web.Models;
 using ILanni.Common.User.Web.Models.ManageViewModels;
 using ILanni.Common.User.Web.Services;
-using ILanni.Common.User.DbModel;
 
 namespace ILanni.Common.User.Web.Controllers
 {
@@ -21,8 +20,8 @@ namespace ILanni.Common.User.Web.Controllers
     [Route("[controller]/[action]")]
     public class ManageController : Controller
     {
-        private readonly UserManager<DbModel.User> _userManager;
-        private readonly SignInManager<DbModel.User> _signInManager;
+        private readonly UserManager<ILanni.Common.Identity.User> _userManager;
+        private readonly SignInManager<ILanni.Common.Identity.User> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
         private readonly UrlEncoder _urlEncoder;
@@ -30,8 +29,8 @@ namespace ILanni.Common.User.Web.Controllers
         private const string AuthenicatorUriFormat = "otpauth://totp/{0}:{1}?secret={2}&issuer={0}&digits=6";
 
         public ManageController(
-          UserManager<DbModel.User> userManager,
-          SignInManager<DbModel.User> signInManager,
+          UserManager<ILanni.Common.Identity.User> userManager,
+          SignInManager<ILanni.Common.Identity.User> signInManager,
           IEmailSender emailSender,
           ILogger<ManageController> logger,
           UrlEncoder urlEncoder)

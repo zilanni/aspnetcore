@@ -1,8 +1,8 @@
 @using Microsoft.AspNetCore.Identity
 @using ILanni.Common.User.Web.Models
 
-@inject SignInManager<ILanni.Common.User.DbModel.User> SignInManager
-@inject UserManager<ILanni.Common.User.DbModel.User> UserManager
+@inject SignInManager<ILanni.Common.Identity.User> SignInManager
+@inject UserManager<ILanni.Common.Identity.User> UserManager
 
 @if (SignInManager.IsSignedIn(User))
 {

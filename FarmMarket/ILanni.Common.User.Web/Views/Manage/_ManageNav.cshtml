@@ -1,5 +1,5 @@
 ﻿@using ILanni.Common.User.Web.Views.Manage
-@inject SignInManager<ILanni.Common.User.DbModel.User> SignInManager
+@inject SignInManager<ILanni.Common.Identity.User> SignInManager
 @{
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 }

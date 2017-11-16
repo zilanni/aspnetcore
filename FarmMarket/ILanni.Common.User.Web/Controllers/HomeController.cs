@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ILanni.Common.User.Web.Models;
 using Microsoft.AspNetCore.Identity;
+using ILanni.Common.User.Repository;
 
 namespace ILanni.Common.User.Web.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public async Task< IActionResult> Index()
         {
+            
             return View();
         }
 

@@ -13,6 +13,7 @@ using ILanni.Common.User.Web.Models;
 using ILanni.Common.User.Web.Services;
 using ILanni.Common.User.Repository;
 using Pomelo.EntityFrameworkCore.MySql;
+using AutoMapper;
 
 namespace ILanni.Common.User.Web
 {
@@ -21,6 +22,7 @@ namespace ILanni.Common.User.Web
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            Mapper.Initialize(cfg => cfg.AddProfiles("ILanni.Common.Identity"));
         }
 
         public IConfiguration Configuration { get; }
@@ -31,13 +33,14 @@ namespace ILanni.Common.User.Web
             services.AddDbContext<UserDbContext>(options =>
                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<User.DbModel.User, User.DbModel.Role>()
-                .AddUserStore<UserRepository>()
-                .AddRoleStore<RoleRepository>()
+            services.AddIdentity<ILanni.Common.Identity.User, ILanni.Common.Identity.Role>()
+                .AddUserStore<ILanni.Common.Identity.UserStore>()
+                .AddRoleStore<ILanni.Common.Identity.RoleStore>()
                 .AddDefaultTokenProviders();
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+            services.AddScoped<UserRepository, UserRepository>();
 
             services.AddMvc();
         }

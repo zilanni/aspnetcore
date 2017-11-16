@@ -1,0 +1,6 @@
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\Lanni.Common.Identity.deps.json
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\bin\Debug\netcoreapp2.0\Lanni.Common.Identity.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\Lanni.Common.Identity.csprojResolveAssemblyReference.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\Lanni.Common.Identity.csproj.CoreCompileInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\Lanni.Common.Identity.AssemblyInfoInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\Lanni.Common.Identity\obj\Debug\netcoreapp2.0\Lanni.Common.Identity.AssemblyInfo.cs
