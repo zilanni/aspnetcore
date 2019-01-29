@@ -7,10 +7,11 @@ using System.Linq;
 using ILanni.Common.User;
 using ILanni.Common.User.Repository;
 using AutoMapper;
+using System.Security.Claims;
 
 namespace ILanni.Common.Identity
 {
-    public class UserStore : IUserStore<User>, IUserEmailStore<User>, IUserLockoutStore<User>, IUserPasswordStore<User>, IUserPhoneNumberStore<User>, IUserSecurityStampStore<User>,IUserRoleStore<User>
+    public class UserStore : IUserStore<User>, IUserEmailStore<User>, IUserLockoutStore<User>, IUserPasswordStore<User>, IUserPhoneNumberStore<User>, IUserSecurityStampStore<User>,IUserRoleStore<User>,IUserClaimStore<User>
     {
         private UserRepository repository;
         public UserStore(UserRepository repository)
@@ -58,7 +59,7 @@ namespace ILanni.Common.Identity
 
         public async Task<User> FindByNameAsync(string normalizedUserName, CancellationToken cancellationToken)
         {
-            
+
             var user = await repository.FindByNameAsync(normalizedUserName, cancellationToken);
             return Mapper.Map<User>(user);
         }
@@ -242,7 +243,7 @@ namespace ILanni.Common.Identity
         #endregion
 
         #region  IUserPhoneNumberStore
-       
+
 
         public Task<string> GetPhoneNumberAsync(User user, CancellationToken cancellationToken)
         {
@@ -256,7 +257,7 @@ namespace ILanni.Common.Identity
             return Task.FromResult(user.PhoneNumberConfirmed);
         }
 
-        
+
 
         public Task SetPhoneNumberAsync(User user, string phoneNumber, CancellationToken cancellationToken)
         {
@@ -354,6 +355,43 @@ namespace ILanni.Common.Identity
             user.Roles.RemoveAll(r => r.Id == roleName);
         }
         #endregion
+
+        public Task AddClaimsAsync(User user, IEnumerable<Claim> claims, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        
+
+        public async Task<IList<Claim>> GetClaimsAsync(User user, CancellationToken cancellationToken)
+        {
+            var clains = await repository.GetClaims(user.Id, cancellationToken);
+            var result = clains.Select(c => new Claim(c.ClaimType, c.ClaimValue)).ToList();
+            if (!string.IsNullOrWhiteSpace(user.NormalizedEmail))
+            {
+                result.Add(new Claim(ClaimTypes.Email, user.NormalizedEmail));
+            }
+            if (!string.IsNullOrWhiteSpace(user.PhoneNumber))
+            {
+                result.Add(new Claim(ClaimTypes.MobilePhone, user.PhoneNumber));
+            }
+            return result;
+        }
+        
+        public Task<IList<User>> GetUsersForClaimAsync(Claim claim, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task RemoveClaimsAsync(User user, IEnumerable<Claim> claims, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task ReplaceClaimAsync(User user, Claim claim, Claim newClaim, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }

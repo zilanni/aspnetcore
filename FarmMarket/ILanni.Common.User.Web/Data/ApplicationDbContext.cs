@@ -8,7 +8,7 @@ using ILanni.Common.User.Web.Models;
 
 namespace ILanni.Common.User.Web.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    /*public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -22,5 +22,5 @@ namespace ILanni.Common.User.Web.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
-    }
+    }*/
 }

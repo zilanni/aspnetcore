@@ -1,0 +1,9 @@
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.deps.json
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.csprojResolveAssemblyReference.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.csproj.CoreCompileInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.AssemblyInfoInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.AssemblyInfo.cs
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Models\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.pdb

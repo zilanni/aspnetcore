@@ -1,0 +1,9 @@
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\bin\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.deps.json
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\bin\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\obj\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.csprojResolveAssemblyReference.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\obj\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.csproj.CoreCompileInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\obj\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.AssemblyInfoInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\obj\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.AssemblyInfo.cs
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\bin\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\obj\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common.RabbitMQ\obj\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.pdb

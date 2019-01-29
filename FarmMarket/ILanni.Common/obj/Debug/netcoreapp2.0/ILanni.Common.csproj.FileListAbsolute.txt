@@ -1,0 +1,9 @@
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\obj\Debug\netcoreapp2.0\ILanni.Common.csproj.CoreCompileInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\obj\Debug\netcoreapp2.0\ILanni.Common.AssemblyInfoInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\obj\Debug\netcoreapp2.0\ILanni.Common.AssemblyInfo.cs
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\bin\Debug\netcoreapp2.0\ILanni.Common.deps.json
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\bin\Debug\netcoreapp2.0\ILanni.Common.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\bin\Debug\netcoreapp2.0\ILanni.Common.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\obj\Debug\netcoreapp2.0\ILanni.Common.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\obj\Debug\netcoreapp2.0\ILanni.Common.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.Common\obj\Debug\netcoreapp2.0\ILanni.Common.csprojResolveAssemblyReference.cache

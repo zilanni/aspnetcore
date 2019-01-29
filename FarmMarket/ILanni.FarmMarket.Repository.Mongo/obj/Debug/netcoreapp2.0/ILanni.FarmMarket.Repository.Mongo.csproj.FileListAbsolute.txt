@@ -1,0 +1,11 @@
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.deps.json
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.csprojResolveAssemblyReference.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.csproj.CoreCompileInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.AssemblyInfoInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.AssemblyInfo.cs
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.Repository.Mongo\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.Repository.Mongo.pdb

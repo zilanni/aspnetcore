@@ -7,6 +7,9 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using NLog;
+using NLog.Web;
+using NLog.Web.AspNetCore;
 
 namespace ILanni.FarmMarket.Web
 {
@@ -14,6 +17,7 @@ namespace ILanni.FarmMarket.Web
     {
         public static void Main(string[] args)
         {
+            
             BuildWebHost(args).Run();
         }
 

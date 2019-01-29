@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ILanni.Common\ILanni.Common.csproj" />
+    <ProjectReference Include="..\ILanni.FarmMarket.Models\ILanni.FarmMarket.Models.csproj" />
+    <ProjectReference Include="..\ILanni.FarmMarket.MQ\ILanni.FarmMarket.MQ.csproj" />
+    <ProjectReference Include="..\ILanni.FarmMarket.Repository.Mongo\ILanni.FarmMarket.Repository.Mongo.csproj" />
+  </ItemGroup>
+
+</Project>

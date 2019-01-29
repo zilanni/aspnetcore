@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ILanni.Common.RabbitMQ\ILanni.Common.RabbitMQ.csproj" />
+    <ProjectReference Include="..\ILanni.FarmMarket.Models\ILanni.FarmMarket.Models.csproj" />
+  </ItemGroup>
+
+</Project>

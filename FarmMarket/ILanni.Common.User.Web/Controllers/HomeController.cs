@@ -18,8 +18,10 @@ namespace ILanni.Common.User.Web.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public async Task<IActionResult> About([FromServices] UserRepository repository)
         {
+            await repository.UpdateTag(1, "BBBB");
+
             ViewData["Message"] = "Your application description page.";
 
             return View();
@@ -30,6 +32,11 @@ namespace ILanni.Common.User.Web.Controllers
         {
             ViewData["Message"] = "Your contact page.";
 
+            return View();
+        }
+
+        public IActionResult Info()
+        {
             return View();
         }
 

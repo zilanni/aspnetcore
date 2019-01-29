@@ -101,5 +101,33 @@ namespace ILanni.Common.User.Repository
             }
         }
 
+        public Task<List<UserClaim>> GetClaims(string userId, CancellationToken cancellationToken)
+        {
+            return context.Set<UserClaim>().Where(c => c.UserId == userId).ToListAsync(cancellationToken);
+        }
+
+        public Task AddClaims(IEnumerable<UserClaim> claims, CancellationToken cancellationToken)
+        {
+            context.Set<UserClaim>().AddRange(claims);
+            return context.SaveChangesAsync(cancellationToken);
+        }
+
+        public async Task UpdateTag(long id, string tag)
+        {
+            using (var tx = context.Database.BeginTransaction())
+            {
+                var model = context.Set<UserTag>().FirstOrDefault(t => t.Id == id);
+                if (null != model)
+                {
+                    model.Tag = tag;
+                    model.Version++;
+                    context.Update(model);
+                    context.SaveChanges();
+                    //await context.SaveChangesAsync();
+                }
+                tx.Commit();
+            }
+        }
+
     }
 }

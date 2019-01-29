@@ -1,0 +1,13 @@
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.csprojResolveAssemblyReference.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.csproj.CoreCompileInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.AssemblyInfoInputs.cache
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.AssemblyInfo.cs
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.deps.json
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\bin\Debug\netcoreapp2.0\ILanni.FarmMarket.Models.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\obj\Debug\netcoreapp2.0\ILanni.FarmMarket.MQ.pdb
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\bin\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.dll
+D:\Work\coding\git\github\zilanni\aspnetcore\FarmMarket\ILanni.FarmMarket.MQ\bin\Debug\netcoreapp2.0\ILanni.Common.RabbitMQ.pdb

@@ -23,6 +23,7 @@ namespace ILanni.Common.User.Web
         {
             Configuration = configuration;
             Mapper.Initialize(cfg => cfg.AddProfiles("ILanni.Common.Identity"));
+            
         }
 
         public IConfiguration Configuration { get; }
@@ -37,6 +38,24 @@ namespace ILanni.Common.User.Web
                 .AddUserStore<ILanni.Common.Identity.UserStore>()
                 .AddRoleStore<ILanni.Common.Identity.RoleStore>()
                 .AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(ops =>
+            {
+                ops.Password.RequireDigit = false;
+                ops.Password.RequiredLength = 6;
+                ops.Password.RequiredUniqueChars = 1;
+                ops.Password.RequireLowercase = false;
+                ops.Password.RequireNonAlphanumeric = false;
+                ops.Password.RequireUppercase = false;
+
+            });
+
+            //services.AddAuthentication().AddOAuth()
+
+            services.ConfigureApplicationCookie(ops =>
+            {
+                
+            });
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();

@@ -5,3 +5,32 @@
 <h3>@ViewData["Message"]</h3>
 
 <p>Use this area to provide additional information.</p>
+<div>
+    <iframe id="index" src="@Url.Action("Index")"></iframe>
+</div>
+<div>
+    <iframe id="Test" src="@Url.Action("Index","Test")"></iframe>
+</div>
+<div>
+    <iframe id="Add" src="@Url.Action("Add","Test")"></iframe>
+</div>
+<div>
+    <iframe id="Details" src="@Url.Action("Details","Test",new { id= 636477219403528970 })"></iframe>   
+</div>
+
+@section Scripts{ 
+    <script type="text/javascript">
+        $(function () { 
+            var ids = ["index", "Test", "Add","Details"];
+            var intervals = [902, 560, 1400, 150];
+            $.each(ids, function (index, id) {
+                var src = $("#" + id).attr("src");
+                setTimeout(function () { 
+                    setInterval(function () {
+                        $("#" + id).attr("src", src);
+                    }, intervals[index]);
+                }, 50);
+            });
+        });
+    </script>
+}
